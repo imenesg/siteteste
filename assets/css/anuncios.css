@@ -1,0 +1,126 @@
+.anuncios{
+    justify-content: center;
+    
+}
+.anuncios .containerAnuncio {
+    width: 80%;
+    height: 150px;
+    background-color: var(--color5);
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    padding-top:  5%; 
+    padding-bottom: 5%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.418);
+}
+.top-containerAnuncio{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+.anuncios .containerAnuncio .empresa{
+    display: inline-flex;
+    color: var(--color3);
+    font-weight: 700;
+    font-size: 1.1rem;
+    
+}
+.anuncios .containerAnuncio .dataAnuncio{
+    display: inline-flex;
+    color: var(--color2);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.anuncios .containerAnuncio .freela{
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+.anuncios .containerAnuncio .freela::before{
+    content: url(../img/business_center_black_24dp.svg);
+}
+.anuncios .containerAnuncio .botao{
+   padding: 12px 25px;
+    background-color: var(--color3);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.anuncios .containerAnuncio .botao::before{
+   content: url(../img/add_white_24dp.svg);
+     
+ 
+ }
+ .pages{
+     margin-top: 25px;
+     display: flex;
+     justify-content: center;
+
+ }
+ .Npages{
+    margin: 15px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    background-color: var(--color2);
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.pageseleted{
+    background-color: var(--color3);
+    
+}
+@media screen and (min-width:750px){
+    .anuncios{
+       display: flex;
+       width: 100%;
+       flex-wrap: wrap;
+       justify-content: center;
+    
+    }
+    .anuncios .containerAnuncio {
+        width: 45%;
+        
+    }
+}
+@media screen and (min-width:1100px){
+    .anuncios{
+       display: flex;
+       width: 100%;
+       flex-wrap: wrap;
+       justify-content: center;
+    
+    }
+    .anuncios .containerAnuncio {
+        width: 30%;
+        height: 150px;
+        background-color: var(--color5);
+        display: flex;
+        margin: 15px;
+        margin-top: 25px;
+        padding-top:  5%; 
+        padding-bottom: 5%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 8px;
+        box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.418);
+    }
+}
+
+
+
+

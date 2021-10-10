@@ -1,0 +1,41 @@
+.novo-freela{
+
+}
+.novo-freela h2{
+    color: var(--color3);
+    font-size: 2em;
+    margin: 1em 0 .5em 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+.novo-freela .input-formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    justify-content: space-between;
+}
+.novo-freela .input-formulario label{
+    color: var(--color3);
+    font-weight: bold;
+}
+.novo-freela .input-formulario input{
+    border: solid 1px rgb(77, 76, 76);
+    border-radius: 9999999px;
+    padding: .5em;
+}
+.novo-freela .input-formulario  textarea{
+    border: solid 1px rgb(77, 76, 76);
+    border-radius: 1em;
+    
+}
+.novo-freela .divbotao{
+    display: flex;
+    justify-content: center;
+}
+.novo-freela .botao{
+    background-color: var(--color3);
+    padding: .5em 1em;
+    border-radius: 1em;
+    font-size: 1.2em;
+    
+}

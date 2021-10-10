@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border-radius: 8px;
+    border-radius: 1em;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.418);
 }
 .top-containerAnuncio{

@@ -19,28 +19,31 @@ function enviaEmail(event){
     
     var emailFormatado = (`
     Seu nome : ${nome.value};
+
     Empresa : ${empresa.value};
+
     E-mail : ${email.value};
+
     vaga : ${vaga.value};
+
     telefone : ${telefone.value};
+
     celular :${celular.value};
+
     Local : ${local.value};
-    Como será o Freela ? :
+
+    Como será o Freela ?:
     ${atividades.value};
 
     Requisitos : 
     ${requisitos.value};
 
-    Quanto será pago ? :R$${pagamento.value};
+    Quanto será pago ?: R$${pagamento.value};
+
     Outras informações/observações :
     ${observacoes.value};
     `);
 
 
-
-    /*var novoEmailFormatado = emailFormatado.replace(/,/g, '%2c')*/
-    console.log(encodeURI(emailFormatado));
-                 
-    
     window.open(`mailto:freelaemfrancavaga@gmail.com?subject=Nova vaga&body=${encodeURI(emailFormatado)}`);
 }
